@@ -20,6 +20,7 @@
     "@arcjet/node": "^1.3.1",
     "@neondatabase/serverless": "^1.0.2",
     "@types/cors": "^2.8.19",
+    "apminsight": "^5.3.1",
     "better-auth": "^1.5.6",
     "cors": "^2.8.6",
     "drizzle-orm": "^0.45.2",
