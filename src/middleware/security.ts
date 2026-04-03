@@ -65,7 +65,7 @@ const securityMiddleware = async (
       });
     }
     if (desicion.isDenied() && desicion.reason.isRateLimit()) {
-      return res.status(403).json({
+      return res.status(429).json({
         error: "Too many requests",
         message: message,
       });
